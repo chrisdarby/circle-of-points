@@ -28,7 +28,7 @@
                     center: new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $long; ?>)
                 }
                 var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
-                    var marker<?php echo $key; ?> = new google.maps.Marker({
+                    var marker = new google.maps.Marker({
                         position: new google.maps.LatLng(<?php echo $lat; ?>, <?php echo $long; ?>),
                         map: map
                     });
